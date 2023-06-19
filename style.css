@@ -35,6 +35,7 @@ ul {
     justify-content: space-around;
     margin-top: 75px;
     background-color: #1F2937;
+    padding-bottom: 32px;
 }
 
 img {
@@ -72,3 +73,38 @@ button {
 .backgroundcolor {
     background-color: #1F2937;
 }
+
+.information-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    height: 80px;
+    border: 5px solid #3882f6;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 8px;
+
+}
+
+.itextcontainer {
+    display: flex;
+    gap: 140px;
+    margin-left: 250px; 
+    flex: 1;
+}
+
