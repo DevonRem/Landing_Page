@@ -115,3 +115,26 @@ button {
     max-width: 200px;
 }
 
+.quote {
+    margin-top: 50px;
+
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quoter {
+    font-size: 30px;
+    padding-left: 1000px;
+    background-color: #E5E7EB;
+    padding-bottom: 75px;
+}
+
+.quotesection {
+    margin-top: 50px;
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 75px 0px 75px;
+}
