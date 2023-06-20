@@ -84,14 +84,13 @@ button {
 
 .information {
     display: flex;
-    justify-content: center;
     margin-top: 8px;
+    justify-content: center;
 
 }
 
 .box {
     display: flex;
-    flex-direction: column;
     width: 80px;
     height: 80px;
     border: 5px solid #3882f6;
@@ -101,10 +100,18 @@ button {
 
 }
 
-.itextcontainer {
+.container {
     display: flex;
-    gap: 140px;
-    margin-left: 250px; 
-    flex: 1;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+}
+
+.itext {
+    max-width: 200px;
 }
 
